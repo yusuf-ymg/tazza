@@ -1,20 +1,20 @@
-// const hamburger = document.querySelector('.hamburger');
-// const visit = document.querySelector('.list');
-// const ul = document.querySelector('.ul_link');
+const hamburger = document.querySelector('.hamburger');
+const visit = document.querySelector('.list');
+const ul = document.querySelector('.ul_link');
 
-// hamburger.addEventListener('click', () =>{
-//     hamburger.classList.toggle('active');
-//     visit.classList.toggle('active');
-// })
+hamburger.addEventListener('click', () =>{
+    hamburger.classList.toggle('active');
+    visit.classList.toggle('active');
+})
 
 
 
-// document.querySelectorAll('.ul_link').forEach((el) => {
-//     el.addEventListener('click', () => {
-//         hamburger.classList.remove('active')
-//         visit.classList.remove('active')
-//     })
-// })
+document.querySelectorAll('.ul_link').forEach((el) => {
+    el.addEventListener('click', () => {
+        hamburger.classList.remove('active')
+        visit.classList.remove('active')
+    })
+})
 
 // 
 
