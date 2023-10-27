@@ -13,12 +13,12 @@ body{
 }
 
 header{
-  padding: 17px;
-  top: 0;
+  padding: 10px 0;
   width: 100%;
   position: fixed;
   z-index: 999;
   background-color: whitesmoke;
+  
     
 }
 
@@ -74,10 +74,12 @@ header{
 
   nav{
   width: 100%;
-  position: sticky;
-  top: 50px;
-  z-index: 999;
   background-color: whitesmoke;
+  position: sticky;
+  z-index: 888;
+  top: 5%;
+  padding: 5px;
+  width: 100%;
  }
 
   nav .visit{
@@ -241,6 +243,195 @@ header{
     color:  #5eee5e;
  }
 
+ /* section of anothe index, */
+
+ /*    this is a about section */
+ .hero-about{
+  background-color: whitesmoke;
+ }
+ .hero-about .hero_work{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  align-items: center;
+ }
+ .hero-about .hero_work .organic h1{
+  font-size: 3rem;
+ }
+ .hero-about .hero_work .organic{
+  width: 50%;
+ }
+ .hero-about .hero_work .organic img{
+  width: 100%;
+ }
+
+ .about{
+  padding: 50px 0;
+ }
+ .about h1{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+ }
+ .about span p{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+ }
+ .us  p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+ }
+ .about .about-us{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 1rem;
+ }
+ .about-us .us{
+  width: 50%;
+  margin-top: 2rem;
+ }
+ .about-us .us img{
+  width:  100%;
+ }
+
+ @media (max-width:900px) {
+
+   .hero-about .hero_work{
+    display: block;
+    padding: 100px 0 ;
+   }
+   .hero-about .hero_work .organic h1{
+    font-size: 2rem;
+   }
+   .hero-about .hero_work .organic{
+    width: 100%;
+   }
+  
+   .about{
+    padding: 50px 0;
+   }
+   .about h1{
+    font-size: 24px;
+    margin-bottom: 14px;
+   }
+   .about span p{
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+   }
+   .us  p{
+    font-size: 14px;
+    line-height: 24px;
+   }
+   .about .about-us{
+    display: block;
+   }
+   .about-us .us{
+    width: 100%;
+   }
+  
+ }
+/*  */
+
+/* product section */
+
+.product-next{
+  padding: 50px 0;
+}
+.product-next span h1{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.product-next span p{
+  width: 50%;
+  margin: auto;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.product-next .pure-lemon{
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  margin: auto;
+}
+.pure-lemon .juice{
+  width: 50%;
+  margin-top: 2rem;
+}
+.juice img{
+  width: 100%;
+}
+.juice h1{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.juice p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+.juice button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: white;
+  background-color: darkgreen;
+}
+.juice button:hover{
+  border: 1px solid #13a313;
+  background-color: white;
+  color:  #5eee5e;
+}
+
+@media (max-width:900px) {
+  .product-next{
+    padding: 50px 0;
+  }
+  .product-next span h1{
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+  .product-next span p{
+    width: 80%;
+    font-size: 14px;
+    line-height: 24px;
+    
+  }
+  .product-next .pure-lemon{
+    display: block;
+  }
+  .pure-lemon .juice{
+    width: 100%;
+  }
+  .juice h1{
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+  .juice p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 14px;
+  }
+  .juice h2{
+    font-size: 1rem;
+  }
+  .juice button{
+    padding: 10px;
+  
+}
+}
+
+
+
+
+
+/*  */
  @media (max-width:900px) {
 
   .organic h1{
@@ -434,7 +625,6 @@ header{
   .product_title p{
     font-size: 1.2rem;
     line-height: 2rem;
-    
   }
  .seller_product .container_product{
   width: 90%;
@@ -591,10 +781,6 @@ header{
 
 @media (max-width:900px) {
 
-.happy{
-  padding: 0;
-  background-color: #d1ffbd;
-}
 .happy h1{
   font-size: 24px;
   margin-bottom: 14px;
@@ -602,6 +788,7 @@ header{
 .happy span p{
   font-size: 14px;
   line-height: 24px;
+  width: 90%;
 }
 .slide{
   width: 100%;
@@ -685,6 +872,7 @@ header{
   .gallery-container span p{
       font-size: 14px;
       line-height: 24px;
+      width: 80%;
   }
   
 }
