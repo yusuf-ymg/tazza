@@ -13,7 +13,7 @@ body{
 }
 
 header{
-  padding: 10px 0;
+  padding: 10px 5px;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -242,6 +242,47 @@ header{
     background-color: white;
     color:  #5eee5e;
  }
+ @media (max-width:900px) {
+
+  .organic h1{
+    font-size: 24px;
+ }
+
+ .hero{
+    width: 100%;
+    padding: 100px 0;
+ }
+ .hero .hero_work{
+    display: block;
+
+ }
+ 
+ .hero_work .organic{
+    width: 100%;
+ }
+ .hero .organic img{
+    width: 100%;
+ }
+ .organic h1{
+    font-size: 24px;
+    color: #023f02;
+    margin-bottom: 1rem;
+ }
+ .organic h3{
+  font-size: 1rem;
+  width: 75%;
+  word-spacing: 0;
+  margin-bottom: 1rem;
+    
+ }
+ .organic p{
+    font-size: 14px;
+ }
+
+ .organic button{
+    padding: 10px;
+ }
+ }
 
  /* section of anothe index, */
 
@@ -423,58 +464,181 @@ header{
   }
   .juice button{
     padding: 10px;
+}
+
+}
+
+/*  */
+
+/* section of contact style */
+
+.contact-main{ 
+  padding: 50px 0;
+}
+.contact-main h1{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+.contact-main span p{
+  font-size: 1.2rem;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.contact-main .contact{
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+  background-color: #d1ffbd;
+}
+.contact .first-child{
+  display: flex;
+  gap: 2rem;
+  width: 80%;
+  margin: auto;
+}
+.first-child .first-input{
+  width: 80%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2,1fr);
+}
+.first-child .message{
+  width: 50%;
+  display: flex;
+  gap: 10px;
+}
+.first-child .message i{
+   font-size: 24px;
+   padding: 5px;
+}
+.second-child .message a{
+  color: black;
+}
+
+.first-input input{
+  padding: 3px;
+  outline: none;
+}
+
+
+.contact .second-child{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.second-child .second-input{
+  width: 80%;
+}
+.second-input .input{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.second-child .message{
+  width: 50%;
+  display: flex;
+  gap: 10px;
+}
+.second-child .message i{
+   font-size: 24px;
+   padding: 5px;
+}
+.second-child .message a{
+  color: black;
+}
+.input input{
+   width: 100%;
+   padding: 5px;
+   outline: none;
+}
+.contact .bnt{
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.bnt  button{
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: white;
+  background-color: darkgreen;
+}
+.bnt button:hover{
+  background-color: white;
+  color:  #5eee5e;
+}
+
+@media (max-width:900px) {
+
+  .contact-main{ 
+    padding: 50px 0;
+  }
+  .contact-main h1{
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+  .contact-main span p{
+    font-size: 14px;
+    width: 80%;
+    line-height: 24px;
+  }
+   
+  .contact .first-child{
+    display: block;
+  }
+  .first-child .first-input{
+    width: 100%;
+  }
+  .first-child .message{
+    width: 100%;
+    margin-top: 1rem;
+    
+  }
+  .first-child .message i{
+     font-size: 20px;
+  }
+  .first-child .message{
+    font-size: 14px;
+  }
+  .first-input input{
+    padding: 2px;
+    width: 100%;
+  }
+
+
+  .contact .second-child{
+    display: block;
+  }
+  .second-child .second-input{
+    width: 100%;
+  }
+  .second-child .message{
+    width: 100%;
+  }
+  .second-child .message i{
+     font-size: 20px;
+  }
+  .second-child .message{
+    font-size: 14px;
+  }
+  .bnt  button{
+    padding: 10px;
+    text-transform: lowercase;
   
 }
 }
+/* end of side for another section */
 
 
 
-
-
-/*  */
- @media (max-width:900px) {
-
-  .organic h1{
-    font-size: 24px;
- }
-
- .hero{
-    width: 100%;
-    padding: 100px 0;
- }
- .hero .hero_work{
-    display: block;
-
- }
  
- .hero_work .organic{
-    width: 100%;
- }
- .hero .organic img{
-    width: 100%;
- }
- .organic h1{
-    font-size: 24px;
-    color: #023f02;
-    margin-bottom: 1rem;
- }
- .organic h3{
-  font-size: 1rem;
-  width: 75%;
-  word-spacing: 0;
-  margin-bottom: 1rem;
-    
- }
- .organic p{
-    font-size: 14px;
- }
-
- .organic button{
-    padding: 10px;
- }
- }
-
-
  /* selecting svg icon  style*/
  .selecting{
    width: 100%;
